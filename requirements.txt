@@ -1,1 +1,77 @@
-# Dependencies for soft-tentacle-rl project
+# ==============================================================================
+# SOFT TENTACLE RL - PROJECT DEPENDENCIES
+# ==============================================================================
+# 
+# Installation:
+#   pip install -r requirements.txt
+#
+# For development/GPU:
+#   pip install -r requirements.txt
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+#
+# ==============================================================================
+
+# ==============================================================================
+# CORE DEPENDENCIES
+# ==============================================================================
+
+# Gym/Gymnasium - Standard RL environment interface
+gymnasium>=0.27.0
+
+# MuJoCo - Physics simulation engine for robotics
+mujoco>=2.3.0
+
+# NumPy - Numerical computing
+numpy>=1.24.0
+
+# PyYAML - Configuration file parsing
+pyyaml>=6.0
+
+# ==============================================================================
+# REINFORCEMENT LEARNING ALGORITHMS
+# ==============================================================================
+
+# Stable Baselines3 - PPO and SAC implementations
+stable-baselines3>=2.0.0
+
+# PyTorch - Deep learning framework (required for SB3)
+torch>=2.0.0
+
+# ==============================================================================
+# VISUALIZATION & PLOTTING
+# ==============================================================================
+
+# Matplotlib - Plotting library for results
+matplotlib>=3.6.0
+
+# OpenCV - Video rendering and image processing
+opencv-python>=4.6.0
+
+# ==============================================================================
+# OPTIONAL: JUPYTER NOTEBOOKS
+# ==============================================================================
+
+# Uncomment these if you want to use Jupyter notebooks for analysis:
+# jupyter>=1.0.0
+# notebook>=6.5.0
+# ipywidgets>=8.0.0
+
+# ==============================================================================
+# OPTIONAL: ADVANCED FEATURES
+# ==============================================================================
+
+# Uncomment these for advanced usage:
+# tensorboard>=2.10.0        # For logging training metrics
+# wandb>=0.13.0              # For experiment tracking
+# optuna>=3.0.0              # For hyperparameter optimization
+# scikit-learn>=1.1.0        # For data analysis utilities
+
+# ==============================================================================
+# DEVELOPMENT TOOLS (Optional)
+# ==============================================================================
+
+# Uncomment these for development:
+# pytest>=7.0.0              # Unit testing framework
+# black>=22.0.0              # Code formatter
+# pylint>=2.0.0              # Code linter
+# flake8>=4.0.0              # Style guide enforcement
